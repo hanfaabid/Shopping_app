@@ -108,11 +108,11 @@ const Checkout = () => {
                   alignItems: 'center',
                   width: width(100), // Full width
                   height: height(12.73),
-                  backgroundColor: 'pink',
+                  backgroundColor: 'red',
                   borderRadius: totalSize(2),
                 }}
               >
-                <View>
+                <View >
                   {/* Address Details */}
                   <Text
                     style={{
@@ -186,6 +186,28 @@ const Checkout = () => {
         
       />
 
+      {/* 🔥 Bottom Summary Section */}
+      <View style={styles.bottomContainer}>
+        
+        <View style={styles.row}>
+          <Text style={styles.label}>Total</Text>
+          <Text style={styles.price}>                ₹{Amount()} {/* Display total amount */}
+</Text>
+       
+
+        <View style={styles.divider} />
+
+        <View style={styles.row}>
+          <Text style={styles.subtotal}>Subtotal</Text>
+          <Text style={styles.subtotal}>$210.00</Text>
+        </View>
+
+        <TouchableOpacity style={styles.button}>
+          <Text style={styles.buttonText}>Confirm Order</Text>
+        </TouchableOpacity>
+
+      </View>
+
     
     </SafeAreaView>
   );
@@ -236,5 +258,54 @@ const styles = StyleSheet.create({
     fontFamily: 'Montserrat',
     fontSize: totalSize(1.34),
     color: '#000000',
+  },
+
+  bottomContainer: {
+    backgroundColor: '#fff',
+    padding: 20,
+    borderTopLeftRadius: 30,
+    borderTopRightRadius: 30,
+    elevation: 15, // Android shadow
+  },
+
+  row: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    marginVertical: 6,
+  },
+
+  label: {
+    fontSize: 16,
+    color: '#555',
+  },
+
+  price: {
+    fontSize: 16,
+    fontWeight: '600',
+  },
+
+  subtotal: {
+    fontSize: 20,
+    fontWeight: 'bold',
+  },
+
+  divider: {
+    height: 1,
+    backgroundColor: '#ccc',
+    marginVertical: 15,
+  },
+
+  button: {
+    marginTop: 20,
+    backgroundColor: '#000',
+    paddingVertical: 15,
+    borderRadius: 30,
+    alignItems: 'center',
+  },
+
+  buttonText: {
+    color: '#fff',
+    fontSize: 16,
+    fontWeight: '600',
   },
 });

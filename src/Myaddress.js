@@ -94,7 +94,7 @@ const Myaddress = ({ navigation }) => {
                     fontWeight: 'bold',
                   }}
                 >
-                  {item.city}
+                 City: {item.city}
                 </Text>
 
                 {/* Building */}
@@ -105,7 +105,7 @@ const Myaddress = ({ navigation }) => {
                     fontWeight: 'bold',
                   }}
                 >
-                  {item.building}
+                 Building: {item.building}
                 </Text>
 
                 {/* PIN Code */}
@@ -116,7 +116,7 @@ const Myaddress = ({ navigation }) => {
                     fontWeight: 'bold',
                   }}
                 >
-                  {item.pin}
+                 Pin: {item.pin}
                 </Text>
               </View>
 
@@ -132,7 +132,7 @@ const Myaddress = ({ navigation }) => {
                   justifyContent: 'center',
                   borderColor: '#C8C8C8',
                 }}
-                onPress={() => dispatch(RemoveAddress(index))}
+                onPress={() => dispatch(()=>RemoveAddress(index))}
               >
                 <Text style={{ fontSize: totalSize(1.34) }}>
                   Delete address
