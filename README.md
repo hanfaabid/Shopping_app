@@ -100,7 +100,7 @@ The app includes complete authentication flow, product browsing, cart system, an
 <tr>
     <td Align="center">
         <b>Address screen</b><br/>
-        <img src="https://github.com/user-attachments/assets/ecfca55e-4048-4092-a588-d88b87704473" /> width="250"/>
+        <img src="https://github.com/user-attachments/assets/ecfca55e-4048-4092-a588-d88b87704473"  width="250"/>
     </td>
     <td Align="center">
         <b>Order</b><br/>
@@ -108,7 +108,7 @@ The app includes complete authentication flow, product browsing, cart system, an
     </td>
     <td Align="center">
         <b>Checkout Screen</b><br/>
-        <img src="https://github.com/user-attachments/assets/44dc7dc8-5fc6-41c8-bce3-812a8246508b" /> width="250"/>
+        <img src="https://github.com/user-attachments/assets/44dc7dc8-5fc6-41c8-bce3-812a8246508b"  width="250"/>
     </td>
 <tr>
 <td Align="center">
