@@ -67,13 +67,57 @@ The app includes complete authentication flow, product browsing, cart system, an
       <img src="https://github.com/user-attachments/assets/07eb8fe7-ce72-4e13-8e25-2993903b8923" width="250"/><br/>
     </td>
   </tr>
+  <tr>
+    <td Align="center">
+        <b>Home Screen</b><br/>
+        <img src="https://github.com/user-attachments/assets/f8ccdc73-ca37-4788-a132-b28a2cbf9116" width="250"/>
+    </td>
+    <td Align="center">
+        <b>Home Screen</b><br/>
+        <img src="https://github.com/user-attachments/assets/09e75fa7-68a9-4a76-8a0b-ca8ef3a1308d" width="250"/>
+    </td>
+    <td Align="center">
+        <b>Home Screen</b><br/>
+        <img src="https://github.com/user-attachments/assets/de71db64-eb7f-463a-b364-f78ec5bac90c" width="250"/>
+    </td>
+</tr>
+
+<tr>
+    <td Align="center">
+        <b>Cart List</b><br/>
+        <img src="https://github.com/user-attachments/assets/fe276df4-5cf1-40de-98c2-5c7694bcf2d0" width="250"/>
+    </td>
+    <td Align="center">
+        <b>Product Details</b><br/>
+        <img src="https://github.com/user-attachments/assets/788b26e4-b965-4784-86a5-3f94008c53bf" width="250"/>
+    </td>
+    <td Align="center">
+        <b>Cart Screen</b><br/>
+        <img src="https://github.com/user-attachments/assets/cd887bf9-f07d-4302-8bbc-7d58b60016c8" width="250"/>
+    </td>
+</tr>
+
+<tr>
+    <td Align="center">
+        <b>Checkout Screen</b><br/>
+        <img src="https://github.com/user-attachments/assets/35cc289b-d74f-48d3-92d3-f1f0df00e349" width="250"/>
+    </td>
+    <td Align="center">
+        <b>Order Success</b><br/>
+        <img src="https://github.com/user-attachments/assets/a1968eaa-2cbe-46ba-a425-b9ffe1fcae97" width="250"/>
+    </td>
+    <td Align="center">
+        <b>Profile Screen</b><br/>
+        <img src="https://github.com/user-attachments/assets/d237e7a3-4d84-49bf-bb52-7be19c3969f2" width="250"/>
+    </td>
+</tr>
 </table>
 ---
 
 ## 🛠 Tech Stack
 
 - React Native
-- React Navigation (Stack Navigation)
+- React Navigation (Stack Navigation)  
 - REST APIs (for authentication)
 - JavaScript (ES6)
 - FlatList for product rendering
