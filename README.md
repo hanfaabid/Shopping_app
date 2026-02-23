@@ -39,8 +39,6 @@ The app includes complete authentication flow, product browsing, cart system, an
 <img width="200" height="600" alt="Image" src="https://github.com/user-attachments/assets/577f94fc-cecc-40c0-8703-71e19ffe45bb" />
 </div>
 ## 🛠 Tech Stack 
-
-
 - React Native
 - React Navigation (Stack Navigation)
 - REST APIs (for authentication)
