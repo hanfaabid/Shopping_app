@@ -96,7 +96,6 @@ The app includes complete authentication flow, product browsing, cart system, an
         <img src="https://github.com/user-attachments/assets/cd887bf9-f07d-4302-8bbc-7d58b60016c8" width="250"/>
     </td>
 </tr>
-
 <tr>
     <td Align="center">
         <b>Checkout Screen</b><br/>
@@ -189,5 +188,5 @@ React Native Developer
 - Push notifications
 - Wishlist feature
 - Product search & filtering
-- Backend database integration.....
+- Backend database integration
 ```
