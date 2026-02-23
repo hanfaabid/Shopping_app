@@ -30,16 +30,15 @@ The app includes complete authentication flow, product browsing, cart system, an
 
 ---
 ### 🎨 Screenshots
+<div style="display: flex; gap: 30px;">
 <img width="200" height="600" alt="Image" src="https://github.com/user-attachments/assets/e77f87a9-5c0c-4983-88a8-f4ccd393e4e8" />
 <img width="200" height="600" alt="Image" src="https://github.com/user-attachments/assets/b00d875f-e70b-4ecd-a783-361d1514305d" />
 <img width="200" height="600" alt="Image" src="https://github.com/user-attachments/assets/19b1fbbb-04a1-40bd-8b12-88394811c545" />
 <img width="200" height="600" alt="Image" src="https://github.com/user-attachments/assets/5db8e329-87d4-430a-9af7-fca0ad7c77b6" />
 <img width="200" height="600" alt="Image" src="https://github.com/user-attachments/assets/ea0c58ef-7768-471f-a00e-64a1e7437df6" />
 <img width="200" height="600" alt="Image" src="https://github.com/user-attachments/assets/577f94fc-cecc-40c0-8703-71e19ffe45bb" />
-
+</div>
 ## 🛠 Tech Stack 
-
-
 - React Native
 - React Navigation (Stack Navigation)
 - REST APIs (for authentication)
@@ -110,4 +109,4 @@ React Native Developer
 - Push notifications
 - Wishlist feature
 - Product search & filtering
-- Backend database integration......
+- Backend database integration
