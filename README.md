@@ -37,8 +37,39 @@ The app includes complete authentication flow, product browsing, cart system, an
 
 ### 🎨 Screenshots
 
-*(Add your screenshots here)*
+## 🎨 Screenshots
 
+<table cellpadding="20">
+  <tr>
+    <td Align="center">
+      <img src="https://github.com/user-attachments/assets/8872a0aa-5815-4749-8f92-5841e5cb2431" width="250"/><br/>
+      <b>Login Screen</b>
+    </td>
+    <td Align="center">
+      <img src="https://github.com/user-attachments/assets/07a2a649-78d1-4f55-aa6c-521c487a2742" width="250"/><br/>
+      <b>Signup Screen</b>
+    </td>
+    <td Align="center">
+      <img src="https://github.com/user-attachments/assets/30e53ab3-d529-4d6c-b732-e4d7afb90f92" width="250"/><br/>
+      <b>Home Screen</b>
+    </td>
+  </tr>
+
+  <tr>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/0ab3e135-6883-4426-a4aa-b5c112412dbd" width="250"/><br/>
+      <b>Product Details</b>
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/d1603827-ffa5-488f-aaf4-f1e226c914d1" width="250"/><br/>
+      <b>Cart Screen</b>
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/07eb8fe7-ce72-4e13-8e25-2993903b8923" width="250"/><br/>
+      <b>Profile Screen</b>
+    </td>
+  </tr>
+</table>
 ---
 
 ## 🛠 Tech Stack
