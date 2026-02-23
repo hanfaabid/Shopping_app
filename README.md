@@ -2,52 +2,59 @@
 
 A modern mobile shopping application built using **React Native**.  
 The app includes complete authentication flow, product browsing, cart system, and checkout functionality with API integration.
+
 ---
+
 ### 🔐 Authentication System (API Integrated)
-- Sign In
-- Sign Up
-- Forgot Password
-- Change Password
-- OTP Verification Screen
-- API integration for authentication
+
+- Sign In  
+- Sign Up  
+- Forgot Password  
+- Change Password  
+- OTP Verification Screen  
+- API integration for authentication  
 
 ### 🛒 Shopping Features
-- Home screen with product listing
-- Trending products section
-- Product details screen
-- Add to cart functionality
-- Checkout screen
-- Order success screen
-- Profile screen
-- Shipping details screen
+
+- Home screen with product listing  
+- Trending products section  
+- Product details screen  
+- Add to cart functionality  
+- Checkout screen  
+- Order success screen  
+- Profile screen  
+- Shipping details screen  
 
 ### 🎨 UI Features
-- Clean and modern UI
-- Responsive design
-- Proper screen navigation
-- Reusable components
-- Organized folder structure
+
+- Clean and modern UI  
+- Responsive design  
+- Proper screen navigation  
+- Reusable components  
+- Organized folder structure  
 
 ---
+
 ### 🎨 Screenshots
-<div style="display: flex; gap: 30px;">
-<img width="200" height="600" alt="Image" src="https://github.com/user-attachments/assets/e77f87a9-5c0c-4983-88a8-f4ccd393e4e8" />
-<img width="200" height="600" alt="Image" src="https://github.com/user-attachments/assets/b00d875f-e70b-4ecd-a783-361d1514305d" />
-<img width="200" height="600" alt="Image" src="https://github.com/user-attachments/assets/19b1fbbb-04a1-40bd-8b12-88394811c545" />
-<img width="200" height="600" alt="Image" src="https://github.com/user-attachments/assets/5db8e329-87d4-430a-9af7-fca0ad7c77b6" />
-<img width="200" height="600" alt="Image" src="https://github.com/user-attachments/assets/ea0c58ef-7768-471f-a00e-64a1e7437df6" />
-<img width="200" height="600" alt="Image" src="https://github.com/user-attachments/assets/577f94fc-cecc-40c0-8703-71e19ffe45bb" />
-</div>
-## 🛠 Tech Stack 
-- React Native
-- React Navigation (Stack Navigation)
-- REST APIs (for authentication)
-- JavaScript (ES6)
-- FlatList for product rendering
-- Custom reusable components
+
+*(Add your screenshots here)*
 
 ---
+
+## 🛠 Tech Stack
+
+- React Native  
+- React Navigation (Stack Navigation)  
+- REST APIs (for authentication)  
+- JavaScript (ES6)  
+- FlatList for product rendering  
+- Custom reusable components  
+
+---
+
 ## 📂 Folder Structure
+
+```plaintext
 src/
 ├── Signin.js
 ├── Signup.js
