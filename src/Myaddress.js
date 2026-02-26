@@ -68,79 +68,88 @@ const Myaddress = ({ navigation }) => {
         </TouchableOpacity>
       </View>
 
-      {/* Address List */}
-      <FlatList
-        data={Detail} // Address data from Redux
-        keyExtractor={(item, index) => index.toString()} // Unique key
-        renderItem={({ item, index }) => {
-          return (
-            // Single Address Item Container
-            <View
-              style={{
-                justifyContent: 'space-between',
-                flexDirection: 'row',
-                borderTopWidth: totalSize(0.11),
-                borderBottomWidth: totalSize(0.11),
-                alignItems: 'center',
-              }}
-            >
-              {/* Address Details */}
-              <View style={{ flex: 1 }}>
-                {/* City */}
-                <Text
-                  style={{
-                    marginLeft: width(2.67),
-                    fontSize: totalSize(1.34),
-                    fontWeight: 'bold',
-                  }}
-                >
-                 City: {item.city}
-                </Text>
-
-                {/* Building */}
-                <Text
-                  style={{
-                    fontSize: totalSize(1.79),
-                    marginLeft: width(2.67),
-                    fontWeight: 'bold',
-                  }}
-                >
-                 Building: {item.building}
-                </Text>
-
-                {/* PIN Code */}
-                <Text
-                  style={{
-                    fontSize: totalSize(1.79),
-                    marginLeft: width(2.67),
-                    fontWeight: 'bold',
-                  }}
-                >
-                 Pin: {item.pin}
-                </Text>
-              </View>
-
-              {/* Delete Address Button */}
-              <TouchableOpacity
-                style={{
-                  borderWidth: totalSize(0.11),
-                  borderRadius: totalSize(0.9),
-                  width: width(26.67),
-                  height: height(6.16),
-                  marginRight: width(2.67),
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                  borderColor: '#C8C8C8',
-                }}
-                onPress={() => dispatch(()=>RemoveAddress(index))}
-              >
-                <Text style={{ fontSize: totalSize(1.34) }}>
-                  Delete address
-                </Text>
-              </TouchableOpacity>
-            </View>
-          );
+     <FlatList
+  data={Detail}
+  keyExtractor={(item, index) => index.toString()}
+  renderItem={({ item, index }) => {
+    return (
+      <View
+        style={{
+          flexDirection: 'row',
+          justifyContent: 'space-between',
+          alignItems: 'center',
+          backgroundColor: '#fff',
+          paddingVertical: height(2),
+          paddingHorizontal: width(4),
+          borderRadius: totalSize(1.5),
+          marginVertical: height(0.8),
+          elevation: 3, // subtle shadow for Android
+          shadowColor: '#000', // iOS shadow
+          shadowOffset: { width: 0, height: 1 },
+          shadowOpacity: 0.1,
+          shadowRadius: totalSize(1),
         }}
+      >
+        <View style={{ flex: 1 }}>
+          <Text
+            style={{
+              fontSize: totalSize(1.8),
+              fontWeight: '700',
+              color: '#222',
+              marginBottom: height(0.3),
+            }}
+          >
+            City: {item.city}
+          </Text>
+
+          <Text
+            style={{
+              fontSize: totalSize(1.5),
+              fontWeight: '600',
+              color: '#555',
+              marginBottom: height(0.3),
+            }}
+          >
+            Building: {item.building}
+          </Text>
+
+          <Text
+            style={{
+              fontSize: totalSize(1.5),
+              fontWeight: '600',
+              color: '#555',
+            }}
+          >
+            Pin: {item.pin}
+          </Text>
+        </View>
+
+        <TouchableOpacity
+          style={{
+            backgroundColor: '#F83758',
+            borderRadius: totalSize(1),
+            width: width(30),
+            height: height(6),
+            justifyContent: 'center',
+            alignItems: 'center',
+            marginLeft: width(3),
+          }}
+          onPress={() => dispatch(() => RemoveAddress(index))}
+        >
+          <Text
+            style={{
+              fontSize: totalSize(1.4),
+              color: '#fff',
+              fontWeight: '600',
+            }}
+          >
+            Delete Address
+          </Text>
+        </TouchableOpacity>
+      </View>
+    );
+  }}
+
       />
     </SafeAreaView>
   );

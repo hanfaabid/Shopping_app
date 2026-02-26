@@ -84,35 +84,35 @@ The app includes complete authentication flow, product browsing, cart system, an
 
 <tr>
     <td Align="center">
-        <b>Home screen</b><br/>
+        <b style="text-align: center">Home screen</b><br/>
         <img src="https://github.com/user-attachments/assets/fe276df4-5cf1-40de-98c2-5c7694bcf2d0" width="250"/>
     </td>
     <td Align="center">
-        <b>Cart list</b><br/>
+        <b style="text-align: center">Cart list</b><br/>
         <img src="https://github.com/user-attachments/assets/788b26e4-b965-4784-86a5-3f94008c53bf" width="250"/>
     </td>
     <td Align="center">
-        <b>Profile Screen</b><br/>
+        <b style="text-align: center">Profile Screen</b><br/>
         <img src="https://github.com/user-attachments/assets/cd887bf9-f07d-4302-8bbc-7d58b60016c8" width="250"/>
     </td>
       
 </tr>
 <tr>
     <td Align="center">
-        <b>Address screen</b><br/>
+        <b style="text-align: center">Address screen</b><br/>
         <img src="https://github.com/user-attachments/assets/ecfca55e-4048-4092-a588-d88b87704473"  width="250"/>
     </td>
     <td Align="center">
-        <b>Order</b><br/>
+        <b style="text-align: center">Order</b><br/>
         <img src="https://github.com/user-attachments/assets/a1968eaa-2cbe-46ba-a425-b9ffe1fcae97" width="250"/>
     </td>
     <td Align="center">
-        <b>Checkout Screen</b><br/>
+        <b style="text-align: center">Checkout Screen</b><br/>
         <img src="https://github.com/user-attachments/assets/44dc7dc8-5fc6-41c8-bce3-812a8246508b"  width="250"/>
     </td>
 <tr>
 <td Align="center">
-        <b>Add Address Screen</b><br/>
+        <b style="text-align: center">Add Address Screen</b><br/>
         <img src="https://github.com/user-attachments/assets/44c1b864-a3de-44a5-833c-378a0680a5c1" width="250"/>
     </td>
     </tr>
