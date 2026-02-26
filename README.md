@@ -77,22 +77,22 @@ The app includes complete authentication flow, product browsing, cart system, an
         <img src="https://github.com/user-attachments/assets/09e75fa7-68a9-4a76-8a0b-ca8ef3a1308d" width="250"/>
     </td>
     <td Align="center">
-        <b>Home Screen</b><br/>
+        <b Align=" center">Home Screen</b><br/>
         <img src="https://github.com/user-attachments/assets/de71db64-eb7f-463a-b364-f78ec5bac90c" width="250"/>
     </td>
 </tr>
 
 <tr>
     <td Align="center">
-        <b style="text-align: center">Home screen</b><br/>
+        <b Align=" center">Home screen</b><br/>
         <img src="https://github.com/user-attachments/assets/fe276df4-5cf1-40de-98c2-5c7694bcf2d0" width="250"/>
     </td>
     <td Align="center">
-        <b style="text-align: center">Cart list</b><br/>
+        <b Align=" center">Cart list</b><br/>
         <img src="https://github.com/user-attachments/assets/788b26e4-b965-4784-86a5-3f94008c53bf" width="250"/>
     </td>
     <td Align="center">
-        <b style="text-align: center">Profile Screen</b><br/>
+        <b Align=" center">Profile Screen</b><br/>
         <img src="https://github.com/user-attachments/assets/cd887bf9-f07d-4302-8bbc-7d58b60016c8" width="250"/>
     </td>
       
@@ -112,7 +112,7 @@ The app includes complete authentication flow, product browsing, cart system, an
     </td>
 <tr>
 <td Align="center">
-        <b style="text-align: center">Add Address Screen</b><br/>
+        <b Align=" center">Add Address Screen</b><br/>
         <img src="https://github.com/user-attachments/assets/44c1b864-a3de-44a5-833c-378a0680a5c1" width="250"/>
     </td>
     </tr>
