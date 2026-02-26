@@ -102,13 +102,12 @@ The app includes complete authentication flow, product browsing, cart system, an
         <b>Address&nbsp;screen</b><br/>
         <img src="https://github.com/user-attachments/assets/ecfca55e-4048-4092-a588-d88b87704473"  width="250",height="500"/>
     </td>
-    <td Align="center">
-        <b>Order</b><br/>
+<td Align="center" valign="top">        <b>Order</b><br/>
         <img src="https://github.com/user-attachments/assets/a1968eaa-2cbe-46ba-a425-b9ffe1fcae97" width="250",height="500"/>
     </td>
     <td Align="center">
         <b>Checkout&nbsp;Screen</b><br/>
-        <img src="https://github.com/user-attachments/assets/44dc7dc8-5fc6-41c8-bce3-812a8246508b"  width="250",height="500"/>
+        <img src="https://github.com/user-attachments/assets/a20c469d-0ca7-4301-9ee7-ba3c54fe7846" width="250",height="500"/>
     </td>
 <tr>
 <td Align="center">
