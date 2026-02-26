@@ -77,42 +77,42 @@ The app includes complete authentication flow, product browsing, cart system, an
         <img src="https://github.com/user-attachments/assets/09e75fa7-68a9-4a76-8a0b-ca8ef3a1308d" width="250"/>
     </td>
     <td Align="center">
-        <b Align=" center">Home Screen</b><br/>
+        <b>Home Screen</b><br/>
         <img src="https://github.com/user-attachments/assets/de71db64-eb7f-463a-b364-f78ec5bac90c" width="250"/>
     </td>
 </tr>
 
 <tr>
     <td Align="center">
-        <b Align=" center">Home screen</b><br/>
+        <b>Home screen</b><br/>
         <img src="https://github.com/user-attachments/assets/fe276df4-5cf1-40de-98c2-5c7694bcf2d0" width="250"/>
     </td>
     <td Align="center">
-        <b Align=" center">Cart list</b><br/>
+        <b>Cart list</b><br/>
         <img src="https://github.com/user-attachments/assets/788b26e4-b965-4784-86a5-3f94008c53bf" width="250"/>
     </td>
     <td Align="center">
-        <h5 Align=" center">Profile Screen</h5><br/>
+        <b>Profile Screen</b><br/>
         <img src="https://github.com/user-attachments/assets/cd887bf9-f07d-4302-8bbc-7d58b60016c8" width="250"/>
     </td>
       
 </tr>
 <tr>
     <td Align="center">
-        <h5 Align=" center">Address screen</h5><br/>
+        <b>Address screen</b><br/>
         <img src="https://github.com/user-attachments/assets/ecfca55e-4048-4092-a588-d88b87704473"  width="250"/>
     </td>
     <td Align="center">
-        <h5 Align=" center">Order</h5><br/>
+        <b>Order</b><br/>
         <img src="https://github.com/user-attachments/assets/a1968eaa-2cbe-46ba-a425-b9ffe1fcae97" width="250"/>
     </td>
     <td Align="center">
-        <h5 Align=" center">Checkout Screen</h5><br/>
+        <b>Checkout Screen</b><br/>
         <img src="https://github.com/user-attachments/assets/44dc7dc8-5fc6-41c8-bce3-812a8246508b"  width="250"/>
     </td>
 <tr>
 <td Align="center">
-        <h5 Align=" center">Add Address Screen</h5><br/>
+  <b>Add&nbsp;Address&nbsp;Screen</b><br/>
         <img src="https://github.com/user-attachments/assets/44c1b864-a3de-44a5-833c-378a0680a5c1" width="250"/>
     </td>
     </tr>
