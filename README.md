@@ -107,7 +107,7 @@ The app includes complete authentication flow, product browsing, cart system, an
     </td>
     <td Align="center">
         <b>Checkout&nbsp;Screen</b><br/>
-        <img src="https://github.com/user-attachments/assets/a20c469d-0ca7-4301-9ee7-ba3c54fe7846" width="250",height="500"/>
+        <img src="https://github.com/user-attachments/assets/3adf788c-e05b-4422-864e-d1b34f223cf1"  width="250",height="500"/>
     </td>
 <tr>
 <td Align="center">

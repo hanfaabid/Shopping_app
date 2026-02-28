@@ -69,121 +69,120 @@ const Checkout = () => {
       {/* 🔥 Bottom Summary Section */}
       <View style={styles.bottomContainer}>
         <ScrollView showsVerticalScrollIndicator={false}>
-        <View style={styles.row}>
-          <Text style={styles.subtotal}>Subtotal</Text>
-          <Text style={styles.subtotal}> ₹{Amount()}</Text>
-        </View>
-        <View style={styles.divider} />
+          <View style={styles.row}>
+            <Text style={styles.subtotal}>Subtotal</Text>
+            <Text style={styles.subtotal}> ₹{Amount()}</Text>
+          </View>
+          <View style={styles.divider} />
 
-        {/* Delivery Address Header */}
-        <Text
-          style={{
-            alignSelf: 'center',
-            fontSize: totalSize(2),
-            fontWeight: 'bold',
-          }}
-        >
-          Delivery Address
-        </Text>
-        {/* Render list of addresses */}
-        {Detail.map((item, index) => (
-          <View
-            key={index}
+          {/* Delivery Address Header */}
+          <Text
             style={{
-              flexDirection: 'row',
-              justifyContent: 'space-between',
-              alignItems: 'center',
-              width: '100%',
-              height: height(12.73),
-              backgroundColor: '#f6f1f2',
-              borderRadius: totalSize(2),
-              paddingHorizontal: height(2),
-              marginBottom:height(1)
+              alignSelf: 'center',
+              fontSize: totalSize(2),
+              fontWeight: 'bold',
             }}
           >
-            <View>
-              {/* Address Details */}
-              <Text
-                style={{
-                  fontSize: totalSize(1.64),
-                  fontWeight: 'bold',
-                  color: '#000000',
-                  marginLeft: width(2),
-                }}
-              >
-                Address :
-              </Text>
-              <Text
-                style={{
-                  fontSize: totalSize(1.34),
-                  fontWeight: 'bold',
-                  color: '#000000',
-                  marginLeft: width(2),
-                }}
-              >
-                City: {item.city}
-              </Text>
-              <Text
-                style={{
-                  fontSize: totalSize(1.79),
-                  fontWeight: 'bold',
-                  color: '#000000',
-                  marginLeft: width(2),
-                }}
-              >
-                Building: {item.building}
-              </Text>
-              <Text
-                style={{
-                  fontSize: totalSize(1.79),
-                  fontWeight: 'bold',
-                  color: '#000000',
-                  marginLeft: width(2),
-                }}
-              >
-                Pin: {item.pin}
-              </Text>
-            </View>
-
-            {/* Button to select this address */}
-            <TouchableOpacity
+            Delivery Address
+          </Text>
+          {/* Render list of addresses */}
+          {Detail.map((item, index) => (
+            <View
+              key={index}
               style={{
-                height: height(4.93),
-                width: width(26.67),
-                justifyContent: 'center',
+                flexDirection: 'row',
                 alignItems: 'center',
-                backgroundColor: '#F83758',
-                borderRadius: totalSize(1),
+                backgroundColor: '#f6f1f2',
+                borderRadius: totalSize(2),
+                paddingHorizontal: width(2),
+                marginBottom: height(1),
               }}
-              onPress={() =>
-                setAddress(
-                  `City: ${item.city}, Building: ${item.building}, Pin: ${item.pin}`,
-                )
-              }
             >
-              <Text
+              <View
                 style={{
-                  textAlign: 'center',
-                  color: 'white',
-                  fontSize: totalSize(1.5),
+                  flexShrink: 1,
+                  flex: 1,
+                  marginRight: width(2),
                 }}
               >
-                Select Address
-              </Text>
-            </TouchableOpacity>
-          </View>
-        ))}
-        {/* Display selected address or message if none */}
-        {address !== '' && (
-          <View style={styles.selectedAddressCard}>
-            <Text style={styles.selectedTitle}>Selected Address</Text>
+                {/* Address Details */}
+                <Text
+                  style={{
+                    fontSize: totalSize(1.64),
+                    fontWeight: 'bold',
+                    color: '#000000',
+                  }}
+                >
+                  Address :
+                </Text>
+                <Text
+                  style={{
+                    fontSize: totalSize(1.34),
+                    fontWeight: 'bold',
+                    color: '#000000',
+                  }}
+                >
+                  City: {item.city}
+                </Text>
+                <Text
+                  style={{
+                    fontSize: totalSize(1.79),
+                    fontWeight: 'bold',
+                    color: '#000000',
+                  }}
+                >
+                  Building: {item.building}
+                </Text>
+                <Text
+                  style={{
+                    fontSize: totalSize(1.79),
+                    fontWeight: 'bold',
+                    color: '#000000',
+                  }}
+                >
+                  Pin: {item.pin}
+                </Text>
+              </View>
 
-            <Text style={styles.selectedText}>{address}</Text>
-          </View>
-        )}
-        <TouchableOpacity style={styles.button}>
-          <Text style={styles.buttonText}>Confirm Order</Text>
-        </TouchableOpacity>
+              {/* Button to select this address */}
+              <TouchableOpacity
+                style={{
+                  height: height(4.93),
+                  width: width(26.67),
+                  justifyContent: 'center',
+                  alignItems: 'center',
+                  backgroundColor: '#F83758',
+                  borderRadius: totalSize(1),
+                }}
+                onPress={() =>
+                  setAddress(
+                    `City: ${item.city}, Building: ${item.building}, Pin: ${item.pin}`,
+                  )
+                }
+              >
+                <Text
+                  style={{
+                    textAlign: 'center',
+                    color: 'white',
+                    fontSize: totalSize(1.5),
+                  }}
+                >
+                  Select Address
+                </Text>
+              </TouchableOpacity>
+            </View>
+          ))}
+          {/* Display selected address or message if none */}
+          {address !== '' && (
+            <View style={styles.selectedAddressCard}>
+              <Text style={styles.selectedTitle}>Selected Address</Text>
+
+              <Text style={styles.selectedText}>{address}</Text>
+            </View>
+          )}
+          <TouchableOpacity style={styles.button}>
+            <Text style={styles.buttonText}>Confirm Order</Text>
+          </TouchableOpacity>
         </ScrollView>
       </View>
     </SafeAreaView>
@@ -236,65 +235,65 @@ const styles = StyleSheet.create({
     color: '#000000',
   },
 
- bottomContainer: {
-  backgroundColor: '#FD6E87',
-  padding: width(5), // responsive padding
-  borderTopLeftRadius: totalSize(4),
-  borderTopRightRadius: totalSize(4),
-  elevation: 15, // Android shadow
-  justifyContent: 'flex-end',
-},
+  bottomContainer: {
+    backgroundColor: '#FD6E87',
+    padding: width(5), // responsive padding
+    borderTopLeftRadius: totalSize(4),
+    borderTopRightRadius: totalSize(4),
+    elevation: 15, // Android shadow
+    justifyContent: 'flex-end',
+  },
 
-row: {
-  flexDirection: 'row',
-  justifyContent: 'space-between',
-  marginVertical: height(1),
-},
+  row: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    marginVertical: height(1),
+  },
 
-subtotal: {
-  fontSize: totalSize(2), // scalable font size
-  fontWeight: 'bold',
-},
+  subtotal: {
+    fontSize: totalSize(2), // scalable font size
+    fontWeight: 'bold',
+  },
 
-divider: {
-  height: totalSize(0.2),
-  backgroundColor: '#ccc',
-  marginVertical: height(2),
-},
+  divider: {
+    height: totalSize(0.2),
+    backgroundColor: '#ccc',
+    marginVertical: height(2),
+  },
 
-button: {
-  marginTop: height(2),
-  backgroundColor: '#000',
-  paddingVertical: height(2),
-  borderRadius: totalSize(3),
-  alignItems: 'center',
-},
+  button: {
+    marginTop: height(2),
+    backgroundColor: '#000',
+    paddingVertical: height(2),
+    borderRadius: totalSize(3),
+    alignItems: 'center',
+  },
 
-buttonText: {
-  color: '#fff',
-  fontSize: totalSize(1.8),
-  fontWeight: '600',
-},
+  buttonText: {
+    color: '#fff',
+    fontSize: totalSize(1.8),
+    fontWeight: '600',
+  },
 
-selectedAddressCard: {
-  backgroundColor: '#F3F3F3',
-  padding: width(4),
-  borderRadius: totalSize(2),
-  marginTop: height(2),
-  borderWidth: totalSize(0.2),
-  borderColor: '#E0E0E0',
-},
+  selectedAddressCard: {
+    backgroundColor: '#F3F3F3',
+    padding: width(4),
+    borderRadius: totalSize(2),
+    marginTop: height(2),
+    borderWidth: totalSize(0.2),
+    borderColor: '#E0E0E0',
+  },
 
-selectedTitle: {
-  fontSize: totalSize(1.6),
-  fontWeight: '600',
-  color: '#888',
-  marginBottom: height(0.5),
-},
+  selectedTitle: {
+    fontSize: totalSize(1.6),
+    fontWeight: '600',
+    color: '#888',
+    marginBottom: height(0.5),
+  },
 
-selectedText: {
-  fontSize: totalSize(1.8),
-  fontWeight: '600',
-  color: '#000',
-},
+  selectedText: {
+    fontSize: totalSize(1.8),
+    fontWeight: '600',
+    color: '#000',
+  },
 });

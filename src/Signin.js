@@ -119,7 +119,7 @@ const Signin = ({ navigation }) => {
           ) : null}
 
           {/* Password input container */}
-          <View style={styles.main1}>
+          <View style={styles.main2}>
             {/* Lock icon */}
             <Feather name="lock" size={20} />
             {/* Password input */}
@@ -141,7 +141,13 @@ const Signin = ({ navigation }) => {
               />
             </TouchableOpacity>{' '}
           </View>
-          <Text
+          <View style={{flexDirection:'row',justifyContent:'space-between'}}>
+          <Text style={{ color: 'red', }}>
+  {touched.password && errors.password ? errors.password : ' '}
+   
+      
+</Text>
+      <Text
             onPress={() => {
               navigation.navigate('Forgotpassword');
             }}
@@ -155,14 +161,8 @@ const Signin = ({ navigation }) => {
           >
             {' '}
             Forgot Password?
-          </Text>
-          {/* Password error message */}
-          {touched.password ? (
-            <Text style={{ color: 'red', marginTop: 5 }}>
-              {errors.password}
-            </Text>
-          ) : null}
-
+          </Text>   
+</View>
           {/* Login button */}
           <TouchableOpacity style={styles.button} onPress={handleSubmit}>
             <Text style={styles.text}>Login</Text>
@@ -260,7 +260,6 @@ const styles = StyleSheet.create({
   // Main container
   main: {
     paddingHorizontal: width(8.53),
-    flex: 1,
   },
 
   // Input field container
@@ -281,8 +280,10 @@ const styles = StyleSheet.create({
   input: {
     fontSize: totalSize(1.34),
     color: '#676767',
-    marginLeft: width(2.93),
+    paddingVertical: height(0),
     flex: 1,
+  includeFontPadding: false,   // 🔥 important (Android)
+  textAlignVertical: 'center', // 🔥 important (Android)
   },
 
   // Login button
@@ -307,5 +308,19 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     marginTop: height(2.46),
     justifyContent: 'center',
+  },
+  
+  // Input field container
+  main2: {
+    width: width(84.53),
+    height: height(6.5),
+    flexDirection: 'row',
+    borderWidth: totalSize(0.11),
+    borderRadius: totalSize(1.12),
+    backgroundColor: '#F3F3F3',
+    borderColor: '#A8A8A9',
+    alignItems: 'center',
+    paddingHorizontal: width(4.53),
+    marginTop: height(2),
   },
 });
