@@ -41,78 +41,78 @@ The app includes complete authentication flow, product browsing, cart system, an
   <tr>
     <td Align="center">
     <b>Signup&nbsp;Screen</b>
-      <img src="https://github.com/user-attachments/assets/8872a0aa-5815-4749-8f92-5841e5cb2431" width="250",height="500"/>
+      <img src="https://github.com/user-attachments/assets/8872a0aa-5815-4749-8f92-5841e5cb2431" width="250" height="500"/>
     </td>
     <td Align="center">
     <b>Login&nbsp;Screen</b>
-      <img src="https://github.com/user-attachments/assets/07a2a649-78d1-4f55-aa6c-521c487a2742" width="250",height="500"/>
+      <img src="https://github.com/user-attachments/assets/07a2a649-78d1-4f55-aa6c-521c487a2742" width="250" height="500"/>
     </td>
     <td Align="center">
           <b>Password&nbsp;recovery</b>
-      <img src="https://github.com/user-attachments/assets/30e53ab3-d529-4d6c-b732-e4d7afb90f92" width="250"height="500"/>
+      <img src="https://github.com/user-attachments/assets/30e53ab3-d529-4d6c-b732-e4d7afb90f92" width="250" height="500"/>
     </td>
   </tr>
 
   <tr>
     <td Align="center">
           <b>Verification&nbsp;screen</b>
-      <img src="https://github.com/user-attachments/assets/0ab3e135-6883-4426-a4aa-b5c112412dbd" width="250"height="500"/>
+      <img src="https://github.com/user-attachments/assets/0ab3e135-6883-4426-a4aa-b5c112412dbd" width="250" height="500"/>
     </td>
     <td Align="center">
           <b>Password&nbsp;reset</b>
-      <img src="https://github.com/user-attachments/assets/d1603827-ffa5-488f-aaf4-f1e226c914d1" width="250",height="500"/>
+      <img src="https://github.com/user-attachments/assets/d1603827-ffa5-488f-aaf4-f1e226c914d1" width="250" height="500"/>
     </td>
     <td Align="center">
           <b>Done</b>
-      <img src="https://github.com/user-attachments/assets/07eb8fe7-ce72-4e13-8e25-2993903b8923" width="250",height="500"/>
+      <img src="https://github.com/user-attachments/assets/07eb8fe7-ce72-4e13-8e25-2993903b8923" width="250" height="500"/>
     </td>
   </tr>
   <tr>
     <td Align="center">
         <b>Getstart&nbsp;Screen</b><br/>
-        <img src="https://github.com/user-attachments/assets/f8ccdc73-ca37-4788-a132-b28a2cbf9116" width="250",height="500"/>
+        <img src="https://github.com/user-attachments/assets/f8ccdc73-ca37-4788-a132-b28a2cbf9116" width="250" height="500"/>
     </td>
     <td Align="center">
         <b>Home&nbsp;Screen</b><br/>
-        <img src="https://github.com/user-attachments/assets/09e75fa7-68a9-4a76-8a0b-ca8ef3a1308d" width="250",height="500"/>
+        <img src="https://github.com/user-attachments/assets/09e75fa7-68a9-4a76-8a0b-ca8ef3a1308d" width="250" height="500"/>
     </td>
     <td Align="center">
         <b>Home&nbsp;Screen</b><br/>
-        <img src="https://github.com/user-attachments/assets/de71db64-eb7f-463a-b364-f78ec5bac90c" width="250",height="500"/>
+        <img src="https://github.com/user-attachments/assets/de71db64-eb7f-463a-b364-f78ec5bac90c" width="250" height="500"/>
     </td>
 </tr>
 
 <tr>
     <td Align="center">
         <b>Home&nbsp;screen</b><br/>
-        <img src="https://github.com/user-attachments/assets/fe276df4-5cf1-40de-98c2-5c7694bcf2d0" width="250",height="500"/>
+        <img src="https://github.com/user-attachments/assets/fe276df4-5cf1-40de-98c2-5c7694bcf2d0" width="250" height="500"/>
     </td>
     <td Align="center">
         <b>Cart&nbsp;list</b><br/>
-        <img src="https://github.com/user-attachments/assets/788b26e4-b965-4784-86a5-3f94008c53bf" width="250",height="500"/>
+        <img src="https://github.com/user-attachments/assets/788b26e4-b965-4784-86a5-3f94008c53bf" width="250" height="500"/>
     </td>
     <td Align="center">
         <b>Profile&nbsp;Screen</b><br/>
-        <img src="https://github.com/user-attachments/assets/cd887bf9-f07d-4302-8bbc-7d58b60016c8" width="250",height="500"/>
+        <img src="https://github.com/user-attachments/assets/cd887bf9-f07d-4302-8bbc-7d58b60016c8" width="250"height="500"/>
     </td>
       
 </tr>
 <tr>
     <td Align="center">
         <b>Address&nbsp;screen</b><br/>
-        <img src="https://github.com/user-attachments/assets/ecfca55e-4048-4092-a588-d88b87704473"  width="250",height="500"/>
+        <img src="https://github.com/user-attachments/assets/ecfca55e-4048-4092-a588-d88b87704473"  width="250" height="500"/>
     </td>
 <td Align="center" valign="top">        <b>Order</b><br/>
-        <img src="https://github.com/user-attachments/assets/a1968eaa-2cbe-46ba-a425-b9ffe1fcae97" width="250",height="500"/>
+        <img src="https://github.com/user-attachments/assets/a1968eaa-2cbe-46ba-a425-b9ffe1fcae97" width="250" height="500"/>
     </td>
     <td Align="center">
         <b>Checkout&nbsp;Screen</b><br/>
-        <img src="https://github.com/user-attachments/assets/3adf788c-e05b-4422-864e-d1b34f223cf1"  width="250",height="500"/>
+        <img src="https://github.com/user-attachments/assets/3adf788c-e05b-4422-864e-d1b34f223cf1"  width="250" height="500"/>
     </td>
 <tr>
 <td Align="center">
   <b>Add&nbsp;Address&nbsp;Screen</b><br/>
-        <img src="https://github.com/user-attachments/assets/44c1b864-a3de-44a5-833c-378a0680a5c1" width="250",height="500"/>
+        <img src="https://github.com/user-attachments/assets/44c1b864-a3de-44a5-833c-378a0680a5c1" width="250" height="500"/>
     </td>
     </tr>
 
